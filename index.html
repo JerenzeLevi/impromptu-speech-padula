@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Chamber of Secrets</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="sparks"></canvas>
+<div class="stars"></div>
+<div class="fog"></div>
+
+<main class="stage">
+  <header>
+    <div class="ornament">✦ ❖ ✦</div>
+    <h1>Choose Your Fate</h1>
+    <p>Ten enchanted relics. Only one touch each.</p>
+  </header>
+  <section id="grid" class="grid" aria-label="Enchanted relics"></section>
+</main>
+
+<div id="viewer" class="viewer" hidden>
+  <img id="viewerImg" alt="">
+  <button id="closeBtn" class="close" aria-label="Close">✕</button>
+</div>
+
+<button id="adminBtn" class="admin-btn" aria-label="Upload images">&#128273; Upload</button>
+
+<div id="pinModal" class="modal" hidden>
+  <form id="pinForm" class="card" autocomplete="off">
+    <h2>Enter PIN</h2>
+    <input id="pinInput" type="password" inputmode="numeric" maxlength="8" placeholder="PIN">
+    <div id="pinErr" class="err"></div>
+    <div class="row"><button type="button" id="pinCancel">Cancel</button><button type="submit">Unlock</button></div>
+  </form>
+</div>
+
+<div id="uploadModal" class="modal" hidden>
+  <div class="card">
+    <h2>Upload Images</h2>
+    <p>Choose <b>10 or more</b> different images. The first 10 unique ones fill slots 1-10, one image per slot.</p>
+    <input id="fileInput" type="file" accept="image/*" multiple>
+    <div id="upMsg"></div>
+    <ol id="upList"></ol>
+    <div class="row"><button type="button" id="upClose">Close</button></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

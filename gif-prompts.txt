@@ -1,0 +1,114 @@
+HARRY POTTER GIF PROMPTS (10 relics for the LED wall boxes)
+=============================================================
+
+HOW TO USE
+- Paste each prompt into your AI generator (Veo, Runway, Pika, Kling, Luma, Midjourney video, etc.).
+- Save as 1.gif ... 10.gif in assets/gifs/ (number matches the prompt).
+- If the tool outputs MP4, convert to GIF (ezgif.com or ffmpeg). Keep ~3-5 sec, seamless loop.
+- Tip: ask for a BLACK or very dark plain background so the box colour glows through
+  (use ezgif "remove background" / make black transparent if you want it fully transparent).
+
+GLOBAL STYLE (add to the end of EVERY prompt)
+-----------------------------------------------------------------
+"Single centered object, square 1:1 framing, object fills about 70% of the frame, pure black
+background, cinematic dramatic lighting, warm golden rim light, magical floating dust motes and
+tiny gold sparkles, rich detail, photorealistic fantasy render in the style of the Harry Potter
+films, seamless 4-second loop, slow smooth camera, no text, no watermark, no people, no faces."
+
+-----------------------------------------------------------------
+1. SORTING HAT
+-----------------------------------------------------------------
+An ancient, patched and frayed brown leather Sorting Hat with a tall crooked pointed tip, deep
+wrinkles and stitched seams, floating and slowly rotating. The brim folds open and closed like
+a mouth as if it is whispering, the tip gently sways. Warm candlelight glow, drifting dust,
+faint amber sparkles falling from the brim.
+
+-----------------------------------------------------------------
+2. ELDER WAND
+-----------------------------------------------------------------
+A long, pale, knotted wooden wand with ornate carved nodules along the handle, hovering
+diagonally and slowly spinning. The tip ignites with a bright white-blue spark that bursts
+into swirling ribbons of golden and silver magic, curling in the air like a spell being cast,
+then fades and repeats.
+
+-----------------------------------------------------------------
+3. GOLDEN SNITCH
+-----------------------------------------------------------------
+A small gleaming golden Snitch ball with delicate, fluttering silver wings engraved with
+fine feather detail. It darts left and right in small quick zig-zags, hovers, then zips
+again, leaving a faint glowing golden trail of light. Polished metal reflections, tiny
+sparkles at each turn.
+
+-----------------------------------------------------------------
+4. INVISIBILITY CLOAK
+-----------------------------------------------------------------
+A shimmering, silvery-silk cloak floating upright in mid-air as if worn by an invisible
+person. The fabric flows like liquid mercury, rippling and swirling slowly, edges dissolving
+into glittering silver mist and fading in and out of transparency. Subtle moonlit blue-silver
+glow, twinkling star-like particles woven in the cloth.
+
+-----------------------------------------------------------------
+5. HOGWARTS HOUSE SCARF & ROBE
+-----------------------------------------------------------------
+A Gryffindor scarf in crimson red and gold stripes with tassel ends, floating over a folded
+black wizard robe with a small crest on the chest. The scarf waves gently as if in a warm
+breeze from an unseen fire, the stitched crest glints, embers drift upward past it.
+
+-----------------------------------------------------------------
+6. HEDWIG'S OWL FEATHER & LETTER (HOGWARTS ACCEPTANCE LETTER)
+-----------------------------------------------------------------
+A cream parchment envelope sealed with a red wax crest, hovering and slowly spinning, with
+a single white snowy-owl feather drifting around it. The envelope trembles and flutters
+like it is alive, the wax seal glows warmly, handwritten emerald-green ink glimmers along
+the edge. Soft white feathers and sparkles float past.
+
+-----------------------------------------------------------------
+7. POTION BOTTLE (POLYJUICE / FELIX FELICIS)
+-----------------------------------------------------------------
+A round glass corked flask filled with glowing liquid gold (Felix Felicis) that swirls and
+bubbles inside, the liquid sloshing and releasing tiny golden bubbles and wisps of glittering
+vapor from the top. The glass catches reflections, the whole bottle slowly bobs and turns,
+warm amber light pulsing from within.
+
+-----------------------------------------------------------------
+8. THE MARAUDER'S MAP
+-----------------------------------------------------------------
+An aged, folded parchment map slowly unfolding itself in the air. Fine ink lines of corridors
+and rooms draw themselves across the paper, with tiny footprints walking along the paths,
+glowing faint gold. Sepia paper texture, worn creases, dark ink flourishes spreading out
+and then folding back to loop.
+
+-----------------------------------------------------------------
+9. NIMBUS 2000 BROOMSTICK
+-----------------------------------------------------------------
+A sleek polished mahogany Nimbus 2000 broomstick with neat golden bristles and a gold
+engraved name, flying diagonally through the frame as if mid-race. Bristles ripple in the
+wind, trailing glowing golden sparks and light streaks, the broom gently tilting and
+banking, then looping seamlessly back.
+
+-----------------------------------------------------------------
+10. HARRY'S ROUND GLASSES & LIGHTNING BOLT
+-----------------------------------------------------------------
+A pair of round black-wire glasses floating, slightly taped at the bridge, lens reflecting
+a flickering torch glow. Behind them a glowing lightning-bolt scar-shaped symbol in gold
+energy pulses and crackles with small electric sparks, while the glasses slowly tilt left
+and right. Cozy, nostalgic, mystical tone.
+
+=============================================================
+SHORT VERSIONS (if your generator has a character limit)
+=============================================================
+1. Floating patched brown Sorting Hat, brim opening like whispering, amber sparkles, black bg, 4s loop.
+2. Pale knotted Elder Wand spinning, tip bursts into golden/silver magic ribbons, black bg, 4s loop.
+3. Golden Snitch with silver wings darting in zig-zags, glowing gold trail, black bg, 4s loop.
+4. Silvery invisibility cloak floating and rippling like mercury, fading in/out, starlight, black bg, 4s loop.
+5. Gryffindor red-gold scarf waving over a black robe with crest, embers rising, black bg, 4s loop.
+6. Hogwarts letter with red wax seal trembling and spinning, owl feather drifting, black bg, 4s loop.
+7. Glass flask of swirling liquid gold luck potion bubbling, golden vapor, black bg, 4s loop.
+8. Marauder's Map unfolding, ink corridors drawing themselves, tiny footprints walking, black bg, 4s loop.
+9. Mahogany Nimbus 2000 broomstick flying diagonally with golden spark trail, black bg, 4s loop.
+10. Round taped glasses with glowing golden lightning bolt crackling behind, black bg, 4s loop.
+
+NOTE ON NAMES
+The relic labels in the site (app.js) can be renamed to match: Sorting Hat, Elder Wand, Golden
+Snitch, Invisibility Cloak, House Scarf, Hogwarts Letter, Potion, Marauder's Map, Nimbus 2000,
+Glasses & Scar.

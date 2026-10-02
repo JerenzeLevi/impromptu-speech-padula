@@ -1,0 +1,4 @@
+# original media in the project root (the site uses the copies in assets/media/)
+/*.png
+/*.jpg
+/*.mp4
