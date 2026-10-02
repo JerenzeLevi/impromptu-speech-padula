@@ -43,7 +43,27 @@
     <input id="fileInput" type="file" accept="image/*" multiple>
     <div id="upMsg"></div>
     <ol id="upList"></ol>
-    <div class="row"><button type="button" id="upClose">Close</button></div>
+    <div class="row"><button type="button" id="creditsBtn">Credits</button><button type="button" id="upClose">Close</button></div>
+  </div>
+</div>
+
+<div id="creditsModal" class="modal credits-modal" hidden>
+  <div class="credits" style="--banner:url('assets/credits/banner.jpg')">
+    <button type="button" id="creditsClose" class="close" aria-label="Close credits">&#10005;</button>
+    <div class="credits-body">
+      <img class="creator" src="assets/credits/creator.jpg" alt="Jerenze Levi, creator">
+      <div class="credits-text">
+        <img class="org-logo" src="assets/credits/logo.png" alt="SYBORG logo">
+        <h2>About the Creator</h2>
+        <h3>Jerenze Levi</h3>
+        <p class="role">President, <b>SYBORG</b> (System Builders Organization)</p>
+        <p class="dept">College of Computing Studies &middot; A.Y. 2026-2027</p>
+        <div class="links">
+          <a href="https://github.com/JerenzeLevi" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://buymeacoffee.com/jerenzelevi" target="_blank" rel="noopener">&#9749; Buy me a coffee</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

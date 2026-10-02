@@ -103,3 +103,21 @@ img.relic{animation:drift 7s ease-in-out infinite alternate;animation-delay:var(
 .card button[type=button]{background:transparent;color:var(--gold);border:1px solid var(--gold-dim)}
 .err{color:#ff8a8a;font-size:max(1.6vh,13px)}
 .ok{color:#9dffb8;font-size:max(1.6vh,13px)}
+
+/* credits (opened from the PIN-unlocked panel) */
+.credits-modal{z-index:300}
+.credits{position:relative;width:min(1000px,94vw);max-height:92vh;overflow:auto;border:1px solid var(--gold);border-radius:1.4vh;
+  background:linear-gradient(rgba(5,3,14,.72),rgba(5,3,14,.88)),var(--banner) center/cover no-repeat;box-shadow:0 0 5vh rgba(232,194,106,.4)}
+.credits .close{top:1.5vh;right:1.5vh;width:5vh;height:5vh;min-width:40px;min-height:40px;font-size:2.4vh}
+.credits-body{display:flex;gap:2.5vw;align-items:center;padding:5vh 3vw}
+.creator{flex:0 0 auto;width:min(300px,34%);aspect-ratio:2/3;object-fit:cover;border-radius:1.2vh;border:.4vh solid var(--gold);box-shadow:0 0 3vh rgba(0,0,0,.7)}
+.credits-text{display:flex;flex-direction:column;gap:1.2vh;min-width:0}
+.org-logo{width:min(110px,22vw);height:auto;filter:drop-shadow(0 0 1.5vh rgba(0,0,0,.8))}
+.credits h2{font-family:'Cinzel Decorative',serif;font-size:max(2vh,14px);letter-spacing:.3em;text-transform:uppercase;color:var(--gold-dim)}
+.credits h3{font-family:'Cinzel Decorative',serif;font-size:max(5vh,28px);line-height:1.1;color:#fff3c9;text-shadow:0 0 2vh rgba(232,194,106,.5)}
+.credits .role,.credits .dept{font-size:max(2.2vh,15px);color:#f3dfa8;text-shadow:0 0 1vh #000}
+.credits .dept{color:#cdb987}
+.links{display:flex;flex-wrap:wrap;gap:1vw;margin-top:1.5vh}
+.links a{padding:1vh 1.6vw;font-size:max(1.8vh,14px);color:#1a0f33;background:var(--gold);border-radius:.8vh;text-decoration:none;font-weight:700}
+.links a:hover{background:#fff3c9}
+@media (max-width:640px){.credits-body{flex-direction:column;text-align:center}.creator{width:60%}.links{justify-content:center}}

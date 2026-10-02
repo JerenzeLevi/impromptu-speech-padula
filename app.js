@@ -132,6 +132,10 @@ const show = (m, on) => { m.hidden = !on; };
 $('adminBtn').addEventListener('click', () => { pinInput.value = ''; pinErr.textContent = ''; show(pinModal, true); pinInput.focus(); });
 $('pinCancel').addEventListener('click', () => show(pinModal, false));
 $('upClose').addEventListener('click', () => show(upModal, false));
+// Credits are only reachable from the PIN-unlocked panel.
+const creditsModal = $('creditsModal');
+$('creditsBtn').addEventListener('click', () => show(creditsModal, true));
+$('creditsClose').addEventListener('click', () => show(creditsModal, false));
 $('pinForm').addEventListener('submit', e => {
   e.preventDefault();
   if (pinInput.value === ADMIN_PIN) {
@@ -182,7 +186,7 @@ fileInput.addEventListener('change', async () => {
 });
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { show(pinModal, false); show(upModal, false); if (!viewer.hidden) closeViewer(); }
+  if (e.key === 'Escape') { show(pinModal, false); show(upModal, false); show(creditsModal, false); if (!viewer.hidden) closeViewer(); }
   // Operator-only reset (makes every container clickable again; uploaded images are kept):
   // Ctrl+Shift+K, or Ctrl+Alt+Shift+R
   const k = e.key.toLowerCase();
