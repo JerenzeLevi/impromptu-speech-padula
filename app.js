@@ -15,11 +15,11 @@ const RELICS = [
   { label: 'Golden Snitch',      media: 'assets/media/3.mp4',  c1: '#8a6d1a', c2: '#241a04' },
   { label: 'Invisibility Cloak', media: 'assets/media/4.mp4',  c1: '#2a4a8a', c2: '#0a1228' },
   { label: 'House Scarf',        media: 'assets/media/5.mp4',  c1: '#7a1f2a', c2: '#20060a' },
-  { label: 'Hogwarts Letter',    media: 'assets/media/6.png',  c1: '#5a3a1a', c2: '#150c04' },
-  { label: 'Potion',             media: 'assets/media/7.png',  c1: '#1f7a4a', c2: '#06200f' },
-  { label: "Marauder's Map",     media: 'assets/media/8.jpg',  c1: '#6a4a2a', c2: '#1a1004' },
-  { label: 'Nimbus 2000',        media: 'assets/media/9.jpg',  c1: '#8a8a1f', c2: '#222204' },
-  { label: 'Glasses & Scar',     media: 'assets/media/10.jpg', c1: '#1f6a6a', c2: '#041a1a' },
+  { label: 'Hogwarts Letter',    media: 'assets/media/6.mp4',  c1: '#5a3a1a', c2: '#150c04' },
+  { label: 'Potion',             media: 'assets/media/7.mp4',  c1: '#1f7a4a', c2: '#06200f' },
+  { label: "Marauder's Map",     media: 'assets/media/8.mp4',  c1: '#6a4a2a', c2: '#1a1004' },
+  { label: 'Nimbus 2000',        media: 'assets/media/9.mp4',  c1: '#8a8a1f', c2: '#222204' },
+  { label: 'Glasses & Scar',     media: 'assets/media/10.mp4', c1: '#1f6a6a', c2: '#041a1a' },
 ];
 
 // ===== SLOT STORAGE (IndexedDB): slot number -> uploaded image Blob =====
