@@ -12,7 +12,7 @@ The board shows ten enchanted Harry Potter-themed relics, "Choose Your Fate". Ea
   - Pick **10 or more** images. The first 10 *different* images are used.
   - **1:1 assignment:** image 1 goes to container 1, image 2 to container 2, and so on. Duplicate files (compared by content, not filename) are rejected, so an image never appears in two containers.
 - **Images stay out of the repo.** Uploaded pictures are stored in the browser (IndexedDB), never in the source files or on a server.
-- **Operator reset.** `Ctrl+Shift+K` (or `Ctrl+Alt+Shift+R`) makes every container clickable again. Uploaded images are kept.
+- **Operator reset.** `Ctrl+Shift+R` (or `Ctrl+Alt+Shift+R`) makes every container clickable again. Uploaded images are kept. `Ctrl+Shift+K` (or `Ctrl+Alt+Shift+K`) empties all uploaded images so the containers are imageless again.
 - Wand cursor, sparkle trail and a burst effect on reveal.
 
 Plain HTML, CSS and JavaScript. No build step and no dependencies.
@@ -34,7 +34,7 @@ Import the repo as a static site. No framework or build settings are needed.
 1. Open the **deployed site** on the device and browser you will use at the event.
 2. Click **Upload**, enter the PIN, and select your 10+ images.
 3. Run the event. Clicking a container reveals its image.
-4. To run again, press `Ctrl+Shift+K`.
+4. To run again, press `Ctrl+Shift+R`.
 
 > **Important:** uploaded images live in that browser, for that exact web address. Uploading on `localhost` will not carry over to the Vercel URL, and clearing site data or using a private window removes them. Do a trial upload on the live site beforehand.
 

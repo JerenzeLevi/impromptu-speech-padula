@@ -10,8 +10,8 @@ const SLOT_COUNT = 10;
 const ADMIN_PIN = '0000';
 
 const RELICS = [
-  { label: 'Sorting Hat',        media: 'assets/media/1.png',  c1: '#7a4a1e', c2: '#1c0e05' },
-  { label: 'Elder Wand',         media: 'assets/media/2.png',  c1: '#4a2a8a', c2: '#120a2a' },
+  { label: 'Sorting Hat',        media: 'assets/media/1.mp4',  c1: '#7a4a1e', c2: '#1c0e05' },
+  { label: 'Elder Wand',         media: 'assets/media/2.mp4',  c1: '#4a2a8a', c2: '#120a2a' },
   { label: 'Golden Snitch',      media: 'assets/media/3.mp4',  c1: '#8a6d1a', c2: '#241a04' },
   { label: 'Invisibility Cloak', media: 'assets/media/4.mp4',  c1: '#2a4a8a', c2: '#0a1228' },
   { label: 'House Scarf',        media: 'assets/media/5.mp4',  c1: '#7a1f2a', c2: '#20060a' },
@@ -187,13 +187,20 @@ fileInput.addEventListener('change', async () => {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { show(pinModal, false); show(upModal, false); show(creditsModal, false); if (!viewer.hidden) closeViewer(); }
-  // Operator-only reset (makes every container clickable again; uploaded images are kept):
-  // Ctrl+Shift+K, or Ctrl+Alt+Shift+R
+  // Operator-only shortcuts (each also works with Alt held):
+  //   Ctrl+Shift+R: make every container clickable again (uploaded images are kept)
+  //   Ctrl+Shift+K: empty all uploaded images so the containers are imageless again
   const k = e.key.toLowerCase();
-  if (e.ctrlKey && e.shiftKey && (k === 'k' || (e.altKey && k === 'r'))) {
+  if (e.ctrlKey && e.shiftKey && k === 'r') {
     e.preventDefault();
     try { localStorage.removeItem(STORAGE_KEY); } catch (_) {}
     location.reload();
+  } else if (e.ctrlKey && e.shiftKey && k === 'k') {
+    e.preventDefault();
+    dbTx('readwrite', s => s.clear()).catch(() => {}).then(() => {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (_) {}
+      location.reload();
+    });
   }
 });
 
